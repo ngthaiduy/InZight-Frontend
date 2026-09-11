@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_admin_users"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="Users" />
+
+    <item
+        android:id="@+id/nav_admin_categories"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="Category" />
+
+    <item
+        android:id="@+id/nav_admin_posts"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="Posts" />
+
+    <item
+        android:id="@+id/nav_admin_orders"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="Orders" />
+
+    <item
+        android:id="@+id/nav_admin_settings"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="Setting" />
+</menu>

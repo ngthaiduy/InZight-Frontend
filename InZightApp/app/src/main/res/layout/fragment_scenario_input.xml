@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home_surface"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="40dp">
+
+        <!-- Header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingTop="50dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:paddingBottom="16dp">
+
+            <ImageView
+                android:id="@+id/btnBack"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_back"
+                app:tint="@color/home_text_strong"
+                android:contentDescription="Back" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="What-If Simulator"
+                android:textColor="@color/home_text_strong"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            
+             <View
+                android:layout_width="24dp"
+                android:layout_height="24dp" />
+        </LinearLayout>
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Simulate your spendings in assume scenarios"
+            android:gravity="center"
+            android:textColor="@color/home_text_regular"
+            android:textSize="14sp"
+            android:layout_marginBottom="24dp"
+            android:paddingHorizontal="40dp"/>
+
+        <!-- Monthly Income -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="20dp"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Monthly Income (VND)"
+                android:textColor="@color/home_text_strong"
+                android:textSize="14sp"
+                android:layout_marginBottom="8dp"/>
+            
+            <EditText
+                android:id="@+id/etMonthlyIncome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_home_switch_item"
+                android:backgroundTint="#FFFFFF"
+                android:hint="Enter monthly income"
+                android:padding="12dp"
+                android:textSize="14sp"
+                android:inputType="numberDecimal"
+                android:textColor="@color/home_text_strong"
+                android:layout_marginBottom="16dp"/>
+        </LinearLayout>
+        
+        <!-- Monthly Expense -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="20dp"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Monthly Expense (VND)"
+                android:textColor="@color/home_text_strong"
+                android:textSize="14sp"
+                android:layout_marginBottom="8dp"/>
+            
+            <EditText
+                android:id="@+id/etMonthlyExpense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_home_switch_item"
+                android:backgroundTint="#FFFFFF"
+                android:hint="Enter monthly expenses"
+                android:padding="12dp"
+                android:textSize="14sp"
+                android:inputType="numberDecimal"
+                android:textColor="@color/home_text_strong"
+                android:layout_marginBottom="16dp"/>
+        </LinearLayout>
+
+        <!-- Purposes -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="20dp"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Purposes"
+                android:textColor="@color/home_text_strong"
+                android:textStyle="italic"
+                android:textSize="14sp"
+                android:layout_marginBottom="16dp"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <!-- Marriage -->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_marginEnd="20dp">
+                        <FrameLayout
+                            android:layout_width="56dp"
+                            android:layout_height="56dp"
+                            android:background="@drawable/bg_circle_white"
+                            android:backgroundTint="#FFEBEE"
+                            android:elevation="2dp">
+                            <ImageView
+                                android:layout_width="28dp"
+                                android:layout_height="28dp"
+                                android:src="@drawable/ic_heart_outline"
+                                app:tint="#D32F2F"
+                                android:layout_gravity="center"/>
+                        </FrameLayout>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Marriage"
+                            android:textSize="12sp"
+                            android:textColor="@color/home_text_strong"
+                            android:layout_marginTop="8dp"/>
+                    </LinearLayout>
+
+                    <!-- Home -->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_marginEnd="20dp">
+                        <FrameLayout
+                            android:layout_width="56dp"
+                            android:layout_height="56dp"
+                            android:background="@drawable/bg_circle_white"
+                            android:backgroundTint="#E3F2FD"
+                            android:elevation="2dp">
+                            <ImageView
+                                android:layout_width="28dp"
+                                android:layout_height="28dp"
+                                android:src="@drawable/ic_home"
+                                app:tint="#1976D2"
+                                android:layout_gravity="center"/>
+                        </FrameLayout>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Home"
+                            android:textSize="12sp"
+                            android:textColor="@color/home_text_strong"
+                            android:layout_marginTop="8dp"/>
+                    </LinearLayout>
+
+                    <!-- Invest -->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_marginEnd="20dp">
+                        <FrameLayout
+                            android:layout_width="56dp"
+                            android:layout_height="56dp"
+                            android:background="@drawable/bg_circle_white"
+                            android:backgroundTint="#FFF3E0"
+                            android:elevation="2dp">
+                            <ImageView
+                                android:layout_width="28dp"
+                                android:layout_height="28dp"
+                                android:src="@drawable/ic_finance"
+                                app:tint="#F57C00"
+                                android:layout_gravity="center"/>
+                        </FrameLayout>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Invest"
+                            android:textSize="12sp"
+                            android:textColor="@color/home_text_strong"
+                            android:layout_marginTop="8dp"/>
+                    </LinearLayout>
+
+                    <!-- Health -->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_marginEnd="20dp">
+                        <FrameLayout
+                            android:layout_width="56dp"
+                            android:layout_height="56dp"
+                            android:background="@drawable/bg_circle_white"
+                            android:backgroundTint="#FFEBEE"
+                            android:elevation="2dp">
+                            <ImageView
+                                android:layout_width="28dp"
+                                android:layout_height="28dp"
+                                android:src="@drawable/ic_add"
+                                app:tint="#D32F2F"
+                                android:layout_gravity="center"/>
+                        </FrameLayout>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Health"
+                            android:textSize="12sp"
+                            android:textColor="@color/home_text_strong"
+                            android:layout_marginTop="8dp"/>
+                    </LinearLayout>
+
+                    <!-- Debt -->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center">
+                        <FrameLayout
+                            android:layout_width="56dp"
+                            android:layout_height="56dp"
+                            android:background="@drawable/bg_circle_white"
+                            android:backgroundTint="#FFF8E1"
+                            android:elevation="2dp">
+                            <ImageView
+                                android:layout_width="28dp"
+                                android:layout_height="28dp"
+                                android:src="@drawable/ic_warning_red"
+                                app:tint="#FBC02D"
+                                android:layout_gravity="center"/>
+                        </FrameLayout>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Debt"
+                            android:textSize="12sp"
+                            android:textColor="@color/home_text_strong"
+                            android:layout_marginTop="8dp"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+
+        <!-- Duration -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="20dp"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="For how long ? (Years)"
+                android:textColor="@color/home_text_strong"
+                android:textStyle="italic"
+                android:textSize="14sp"/>
+            
+            <TextView
+                android:id="@+id/tvDurationValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:gravity="center"
+                android:textColor="@color/home_text_strong"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginTop="4dp"/>
+
+            <com.google.android.material.slider.Slider
+                android:id="@+id/sliderDuration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:valueFrom="0"
+                android:valueTo="30"
+                android:value="0"
+                android:stepSize="1"
+                app:thumbColor="#007BFF"
+                app:trackColorActive="#007BFF"
+                app:trackColorInactive="#E0E0E0"/>
+        </LinearLayout>
+
+        <!-- Pain Points -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="20dp"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="What is your PainPoint ?"
+                android:textColor="@color/home_text_strong"
+                android:textStyle="italic"
+                android:textSize="14sp"
+                android:layout_marginBottom="12dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/bg_home_switch_item"
+                android:backgroundTint="#E3F2FD"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Choose your most concerned activities"
+                    android:textColor="#757575"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
+                    android:layout_marginBottom="12dp"/>
+
+                <!-- Row 1 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="8dp">
+                    
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lack of Emergency Fund"
+                        android:textSize="12sp"
+                        android:layout_weight="1"/>
+                    
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="No Investment"
+                        android:textSize="12sp"
+                        android:layout_weight="1"/>
+                </LinearLayout>
+
+                <!-- Row 2 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="8dp">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Uncontrolled Spending"
+                        android:textSize="12sp"
+                        android:layout_weight="1"/>
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Debt Overload"
+                        android:textSize="12sp"
+                        android:layout_weight="1"/>
+                </LinearLayout>
+
+                <!-- Row 3 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Unclear Financial Priorities"
+                        android:textSize="12sp"
+                        android:layout_weight="1"/>
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Others"
+                        android:textSize="12sp"
+                        android:layout_weight="1"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnGenerate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GENERATE"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:cornerRadius="8dp"
+            android:padding="12dp"
+            android:backgroundTint="#007BFF"
+            android:layout_marginHorizontal="60dp"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+</ScrollView>

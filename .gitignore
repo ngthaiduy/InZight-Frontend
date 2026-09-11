@@ -1,0 +1,24 @@
+# Generated output and developer configuration
+**/.gradle/
+**/.idea/
+**/build/
+**/.cxx/
+**/.externalNativeBuild/
+**/local.properties
+*.iml
+*.apk
+*.aab
+*.log
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+**/keystore.properties
+**/signing.properties
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db

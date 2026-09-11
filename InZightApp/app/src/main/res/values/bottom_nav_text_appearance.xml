@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.BottomNavigationView.TextAppearance" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="Widget.BottomNavigationView.TextAppearance.Active" parent="Widget.BottomNavigationView.TextAppearance">
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
+

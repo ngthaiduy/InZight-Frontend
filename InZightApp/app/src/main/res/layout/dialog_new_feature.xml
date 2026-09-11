@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@drawable/bg_dialog_round"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- Icon envelope với background tròn - ở góc trên bên trái -->
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="-10dp"
+        android:layout_marginTop="-10dp">
+        
+        <!-- Background tròn lớn (nhạt) -->
+        <View
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center" />
+
+        <!-- Background tròn nhỏ (đậm) -->
+        <View
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center" />
+        
+        <!-- Icon FinBot -->
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:src="@drawable/imagebot"
+            android:scaleType="fitCenter" />
+    </FrameLayout>
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="New features!"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/home_text_strong" />
+
+    <!-- Description -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:text="Discover Retire, Optimizer, Scenario and Multi-goal."
+        android:textSize="14sp"
+        android:textColor="@color/home_text_regular"
+        android:gravity="center" />
+
+    <!-- Feature list -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+
+        <!-- Retire -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="8dp">
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginEnd="8dp"
+                android:src="@drawable/ic_bullet_check"
+                app:tint="@color/home_primary" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Retire: retirement plan"
+                android:textSize="14sp"
+                android:textColor="@color/home_text_regular"/>
+        </LinearLayout>
+
+        <!-- Optimizer -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="8dp">
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginEnd="8dp"
+                android:src="@drawable/ic_bullet_check"
+                app:tint="@color/home_primary" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Optimizer: financial optimization"
+                android:textSize="14sp"
+                android:textColor="@color/home_text_regular"/>
+        </LinearLayout>
+
+        <!-- Scenario -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="8dp">
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginEnd="8dp"
+                android:src="@drawable/ic_bullet_check"
+                app:tint="@color/home_primary" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Scenario: test future scenarios"
+                android:textSize="14sp"
+                android:textColor="@color/home_text_regular"/>
+        </LinearLayout>
+
+        <!-- Multi-goal -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginEnd="8dp"
+                android:src="@drawable/ic_bullet_check"
+                app:tint="@color/home_primary" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Multi-goal: manage multiple goals"
+                android:textSize="14sp"
+                android:textColor="@color/home_text_regular"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnTryNow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="TRY NOW"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        app:backgroundTint="@color/home_primary"
+        app:cornerRadius="16dp"/>
+
+</LinearLayout>
+

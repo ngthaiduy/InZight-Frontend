@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="item_bg_blue">#E8F1FF</color>
+    <color name="item_bg_white">#FFFFFF</color>
+    <color name="blue_500">#2196F3</color>
+    <color name="purple_500">#2196F3</color>
+    <color name="gray">#7A7A7A</color>
+    <color name="light_gray">#E0E0E0</color>
+    <color name="icon_gray">#444444</color>
+    <color name="icon_black">#000000</color>
+    <color name="primary_color">#1976D2</color>
+    <color name="red">#E53935</color>
+    <color name="green">#2E7D32</color>
+    <color name="green_600">#4CAF50</color>
+    <color name="green_700">#388E3C</color>
+    <color name="home_surface">#F9FBFF</color>
+    <color name="home_primary">#2F6BFF</color>
+    <color name="home_primary_dark">#163D99</color>
+    <color name="home_text_strong">#1A2C54</color>
+    <color name="home_text_regular">#506193</color>
+    <color name="home_text_muted">#8692AE</color>
+    <color name="primary_blue">#3F51B5</color>
+    <color name="bottom_nav_active">#6B94FF</color>
+    <color name="bottom_nav_indicator_light">#D6E4FF</color>
+
+<!--    <color name="primary_blue">#3F51B5</color>-->
+    <color name="primary_bg">#F5F7FA</color>   <color name="text_dark">#333333</color>
+    <color name="text_grey">#757575</color>
+    <color name="red_error">#E53935</color>
+    <color name="green_success">#43A047</color>
+
+    <color name="bgPrimary">#050816</color>
+    <color name="bgSecondary">#111827</color>
+    <color name="cardBackground">#141927</color>
+
+    <color name="textPrimary">#FFFFFF</color>
+    <color name="textSecondary">#9CA3AF</color>
+    <color name="textSecondaryOnDark">#E5E7EB</color>
+
+    <color name="gradientStart">#A855F7</color> <!-- tím -->
+    <color name="gradientEnd">#22D3EE</color>   <!-- xanh -->
+
+    <color name="disabledButton">#374151</color>
+</resources>

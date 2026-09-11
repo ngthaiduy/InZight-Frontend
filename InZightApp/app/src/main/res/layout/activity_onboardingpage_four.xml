@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:gravity="center"
+    android:background="@android:color/white">
+
+    <!-- Illustration -->
+    <ImageView
+        android:id="@+id/imgIllustration"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@mipmap/ic_onboarding3"
+        android:contentDescription="Illustration"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connect &amp; Share"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Subtitle -->
+    <TextView
+        android:id="@+id/tvSubtitle"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:text="Engage with friends
+and share financial insights"
+        android:textColor="#888888"
+        android:textSize="16sp" />
+
+    <!-- Dots indicator -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="100dp">
+
+        <View
+            android:layout_width="6dp"
+            android:layout_height="6dp"
+            android:background="@drawable/indicator_inactive"
+            android:layout_margin="4dp"/>
+
+        <View
+            android:layout_width="6dp"
+            android:layout_height="6dp"
+            android:background="@drawable/indicator_inactive"
+            android:layout_margin="4dp"/>
+
+        <View
+            android:layout_width="16dp"
+            android:layout_height="6dp"
+            android:background="@drawable/indicator_active"
+            android:layout_margin="4dp"/>
+
+    </LinearLayout>
+
+    <!-- Continue button -->
+    <Button
+        android:id="@+id/btnContinue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Started"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:background="@drawable/button_started"
+        app:backgroundTint="@null"
+        android:padding="14dp"
+        android:layout_marginTop="130dp"/>
+</LinearLayout>

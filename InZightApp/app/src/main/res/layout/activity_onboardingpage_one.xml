@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:paddingTop="80dp"
+    android:gravity="center"
+    android:background="@android:color/white">
+
+
+
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/imgLogoOnboarding"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@mipmap/ic_logo_round"
+        android:contentDescription="@string/app_name"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- App name -->
+    <TextView
+        android:id="@+id/tvAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FINTERTAINMENT"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="30dp"/>
+
+    <!-- Subtitle -->
+    <TextView
+        android:id="@+id/tvSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Money Manage,  Achieve Goal,  Control Finance, Social Media Sharing"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="#444444"
+        android:textStyle="bold"
+        android:layout_marginBottom="100dp"/>
+
+    <!-- Get Started button -->
+    <Button
+        android:id="@+id/btnGetStarted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Started"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:background="@drawable/button_started"
+        app:backgroundTint="@null"
+        android:padding="14dp"
+        android:layout_marginTop="100dp"/>
+</LinearLayout>
+
+

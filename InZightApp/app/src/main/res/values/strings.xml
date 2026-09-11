@@ -1,0 +1,227 @@
+<resources>
+    <string name="app_name">Fintertainment</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label" translatable="false">First Fragment</string>
+    <string name="second_fragment_label" translatable="false">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="finbot_avatar" translatable="false">Second Fragment>FinBot assistant</string>
+    <string name="nav_retire" translatable="false">Second Fragment>Retirement planner</string>
+    <string name="nav_optimizer" translatable="false">Second Fragment>Optimizer</string>
+    <string name="nav_scenario" translatable="false">Second Fragment>Scenario lab</string>
+    <string name="nav_multi_goal" translatable="false">Second Fragment>Multi-goal</string>
+    <string name="category_icon_desc" translatable="false">Second Fragment>Category icon</string>
+    <string name="add_transaction">Add transaction</string>
+    <string name="signup_agreement" translatable="false">Second Fragment>By signing up, you agree to our <font color="#000000"><b>Terms of Service</b></font> and <font color="#000000"><b>Privacy Policy</b></font></string>
+    <string name="already_have_account" translatable="false">Second Fragment>Already have an account? <font color="#000000"><b>Sign in</b></font></string>
+
+
+    <string name="lorem_ipsum" translatable="false">Second Fragment>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+    <string-array name="gender_options">
+        <item>Select gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+    
+    <!-- Common -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+
+    <string name="close">Close</string>
+    <string name="loading">Loading...</string>
+    <string name="error">Error</string>
+    <string name="success">Success</string>
+    
+    <!-- Settings -->
+    <string name="settings">Settings</string>
+    <string name="language">Language</string>
+    <string name="select_language">Select Language</string>
+    <string name="english">English</string>
+    <string name="vietnamese">Vietnamese</string>
+    <string name="account_security">Account &amp; Security</string>
+
+    <string name="two_factor_authentication">Two-factor authentication</string>
+    <string name="budget_goals">Budget &amp; Goals</string>
+
+    <string name="expense_notifications">Expense notifications</string>
+    <string name="appearance">Appearance</string>
+    <string name="theme">Theme</string>
+    <string name="accent_color">Accent color</string>
+    <string name="notifications">Notifications</string>
+    <string name="budget_alerts">Budget alerts</string>
+    <string name="weekly_reports">Weekly reports</string>
+    <string name="privacy_support">Privacy &amp; Support</string>
+
+    <string name="logout">Logout</string>
+
+    <string name="version">Version 1.0.3</string>
+    
+    <!-- Login & Register -->
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="enter_username_password">Enter username and password</string>
+    <string name="login_failed">Login failed: Check your credentials</string>
+    <string name="login_successful">Login Successful!</string>
+    <string name="network_error">Network error: %1$s</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="otp_verification_failed">OTP verification failed</string>
+    
+    <!-- Transactions -->
+    <string name="transaction">Transaction</string>
+    <string name="transactions">Transactions</string>
+    <string name="please_enter_amount">Please enter an amount</string>
+    <string name="please_select_category">Please select a category</string>
+    <string name="please_choose_wallet">Please choose your wallet</string>
+
+    <string name="failed_to_save_transaction">Failed to save transaction</string>
+    <string name="transaction_deleted">Transaction deleted</string>
+    
+    <!-- Wallets -->
+    <string name="wallet">Wallet</string>
+    <string name="wallets">Wallets</string>
+    <string name="enter_wallet_name">Enter wallet name</string>
+    <string name="wallet_created">Wallet created!</string>
+    <string name="failed_to_create_wallet">Failed to create wallet</string>
+    
+    <!-- Finbot Chat -->
+    <string name="finbot_chat">Chat with Finbot - your playful financial assistant 😎</string>
+    <string name="finbot_welcome_1">Hello! I\'m Finbot 😎 I can help you record expenses, or just chat!</string>
+    <string name="finbot_welcome_2">You can type \"milk tea 40k\" or \"travel 500k\" for me to record, or just chat normally! I\'m pretty easy-going 😄</string>
+    <string name="finbot_daily_question">What expenses have you incurred today? 😊</string>
+    <string name="cannot_connect_realtime">Cannot connect to realtime</string>
+    <string name="cannot_save_transaction">Cannot save transaction</string>
+    <string name="please_select_wallet_first">Please select wallet first</string>
+    <string name="category_not_found">Category not found. Please try again later.</string>
+    <string name="transaction_saved_success">Transaction saved successfully!</string>
+    <string name="error_saving_transaction">Error saving transaction</string>
+    <string name="connection_error">Connection error: %1$s</string>
+    
+    <!-- Social -->
+    <string name="social">Social</string>
+    <string name="create_post">Create Post</string>
+    <string name="please_enter_text_or_image">Please enter text or select an image.</string>
+    <string name="post_created_successfully">Post created successfully!</string>
+    <string name="failed_to_create_post">Failed to create post.</string>
+    <string name="no_posts_available">No posts available</string>
+    <string name="unable_to_load_posts">Unable to load posts</string>
+    <string name="unable_to_like_post">Unable to like this post</string>
+    <string name="post_hidden">Post hidden</string>
+    <string name="post_deleted">Post deleted</string>
+    <string name="failed_to_delete_post">Failed to delete post</string>
+    
+    <!-- Payment -->
+    <string name="payment_success">Payment successful</string>
+    <string name="payment_cancelled">Payment cancelled</string>
+    
+    <!-- Errors -->
+    <string name="error_loading_wallets">Failed to load wallets</string>
+    <string name="error_loading_categories">Failed to load categories</string>
+    <string name="api_error">API Error: %1$s</string>
+    <string name="error_processing_image">Error processing image</string>
+    
+    <!-- AI Transaction -->
+    <string name="cannot_analyze_qr">Cannot analyze QR code. Content: %1$s</string>
+    <string name="error_processing_qr">Error processing QR code: %1$s</string>
+    <string name="please_enter_sms">Please enter SMS message</string>
+    <string name="cannot_analyze_sms">Cannot analyze SMS. Please check the content again.</string>
+    <string name="from">From: %1$s</string>
+    
+    <!-- Gender -->
+    <string name="select_gender">Select gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="other">Other</string>
+    
+    <!-- Common Actions -->
+    <string name="select_your_wallet"> Select your wallet </string>
+    <string name="add_new_wallet">➕ Add new wallet</string>
+    
+    <!-- Additional -->
+    <string name="failed_to_retrieve_user_info">Failed to retrieve user info</string>
+    <string name="failed_to_load_wallets">Failed to load wallets</string>
+    <string name="error_colon">Error: %1$s</string>
+    <string name="analysis_successful">Analysis successful!</string>
+    
+    <!-- Image Processing -->
+    <string name="cannot_process_image">Cannot process image</string>
+    <string name="cannot_read_image">Cannot read image</string>
+    <string name="error_processing_image_detail">Error processing image: %1$s</string>
+    
+    <!-- QR Code -->
+    <string name="qr_scanned_analyzing">QR code scanned! Analyzing...</string>
+    <string name="error_scanning_qr">Error scanning QR code: %1$s</string>
+    
+    <!-- Receipt OCR -->
+    <string name="receipt_read_analyzing">Receipt read! Analyzing...</string>
+    <string name="error_processing_receipt">Error processing receipt: %1$s</string>
+
+    <string name="cannot_extract_transaction_from_receipt">Cannot extract transaction information from receipt. Please check the image or enter manually.</string>
+    <string name="error_displaying_transaction">Error displaying transaction: %1$s</string>
+    <string name="error_reading_receipt">Error reading receipt: %1$s</string>
+    <string name="error_showing_dialog">Error showing dialog: %1$s</string>
+    <string name="please_select_category_before_save">Please select a category before saving</string>
+    <string name="sms_permission_granted">SMS permission granted. Auto AI is ready!</string>
+    <string name="sms_permission_required">SMS permission is required for auto AI to work</string>
+    <string name="camera_permission_granted">Camera permission granted</string>
+    <string name="camera_permission_required">Camera permission is required to scan QR/receipt</string>
+    <string name="edit">Edit</string>
+    <string name="load_categories_failed">Load categories failed</string>
+    <string name="transaction_saved">Transaction saved!</string>
+    <string name="cannot_extract_from_receipt">Cannot extract information from receipt</string>
+    <string name="cannot_analyze_qr_code">Cannot analyze QR code</string>
+    
+    <!-- Settings -->
+    <string name="edit_profile">Edit Profile</string>
+    <string name="change_password">Change Password</string>
+    <string name="manage_devices">Manage Devices</string>
+    <string name="set_monthly_limit">Set Monthly Limit</string>
+    <string name="manage_saving_goals">Manage Saving Goals</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="contact_support">Contact Support</string>
+    <string name="app_feedback">App Feedback</string>
+    <string name="logout_error">Logout error: %1$s</string>
+    <string name="open_notifications">Open notifications (not implemented yet)</string>
+</resources>
